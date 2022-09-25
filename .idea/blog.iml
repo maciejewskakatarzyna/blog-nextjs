@@ -8,5 +8,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="browse" level="application" />
+    <orderEntry type="library" name="prismjs" level="application" />
+    <orderEntry type="library" name="prism" level="application" />
   </component>
 </module>

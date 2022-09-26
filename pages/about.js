@@ -7,7 +7,7 @@ export default function About() {
       <Head>
         <title>About me</title>
       </Head>
-      <p>tutaj będzie o mnie</p>
+      <p>Here will be something about me...</p>
     </Layout>
   );
 }

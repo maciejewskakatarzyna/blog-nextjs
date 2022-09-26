@@ -1,3 +1,7 @@
+*, a, button {
+    box-sizing: border-box;
+}
+
 @tailwind base;
 
 /* Write your own custom base styles here */

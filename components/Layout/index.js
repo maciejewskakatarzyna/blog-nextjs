@@ -8,19 +8,20 @@ const navLinks = [
 
 export default function Layout({ children }) {
   return (
-    <div className="p-10 font-mono max-w-screen-xl mx-auto">
-      <nav className="bg-cyan-700 p-5 flex justify-center rounded-t-lg">
+    <div className="p-10 font-sans max-w-screen-xl mx-auto bg-bcg">
+      <nav className="p-5 flex justify-end">
         {navLinks.map((link) => (
           <Link href={link.path} key={link.id}>
-            <a className="shadow w-40 bg-blue-50 p-2 px-4 m-2 text-center hover:bg-gray-100 rounded-md">
+            <a className="shadow p-2 px-4 m-2 text-center hover:font-bold text-white">
               {link.label}
             </a>
           </Link>
         ))}
       </nav>
-      <main className="bg-gray-100 p-5">{children}</main>
-      <footer className="bg-cyan-700 p-5 text-gray-100 text-center rounded-b-lg">
-        ©️ Katarzyna Maciejewska, {new Date().getFullYear()}
+      <main className="bg-bcg p-5">{children}</main>
+      <hr className="border-slate-800" />
+      <footer className="bg-bcg p-5 text-gray-100 text-start">
+        ©️ Copyright {new Date().getFullYear()} by Katarzyna Maciejewska
       </footer>
     </div>
   );

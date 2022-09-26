@@ -19,7 +19,7 @@
 
 html,
 body {
-    @apply bg-gray-50 dark:bg-gray-900;
+    @apply bg-bcg;
 }
 
 /* Write your own custom component styles here */

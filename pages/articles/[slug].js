@@ -29,9 +29,9 @@ export default function Article({ article }) {
         <link href="https://unpkg.com/prismjs@0.0.1/themes/prism-okaidia.css" rel="stylesheet" />
       </Head>
       <div>
-        <h1 className="text-center text-3xl mb-10">{article.title}</h1>
+        <h1 className="text-center text-3xl font-bold mb-10 text-white">{article.title}</h1>
         <div
-          className="max-w-3xl mx-auto articleBody"
+          className="max-w-3xl mx-auto articleBody text-font text-lg"
           dangerouslySetInnerHTML={{ __html: article.content }}
         />
       </div>

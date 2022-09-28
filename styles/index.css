@@ -13,6 +13,10 @@
     @apply m-3;
 }
 
+h1 {
+    @apply text-white;
+}
+
 /* Start purging... */
 @tailwind components;
 /* Stop purging. */

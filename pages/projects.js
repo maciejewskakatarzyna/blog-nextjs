@@ -26,7 +26,7 @@ export default function Projects({ projects }) {
                   <div className="min-w-0 flex-1 py-0">
                     <div className="text-md text-gray-500">
                       <div>
-                        <b className="font-medium text-gray-900 mr-2">{project.title}</b>
+                        <b className="font-medium text-font mr-2">{project.title}</b>
                         {project.tags.map((tag, tagId) => (
                           <span
                             key={tagId}
@@ -36,13 +36,13 @@ export default function Projects({ projects }) {
                                 className="h-1.5 w-1.5 rounded-full bg-green-500"
                                 aria-hidden="true"></span>
                             </div>
-                            <div className="ml-3.5 font-medium text-gray-900">{tag}</div>
+                            <div className="ml-3.5 font-medium text-font">{tag}</div>
                           </span>
                         ))}
                       </div>
                       <span className="whitespace-nowrap text-sm">{project.date}</span>
                     </div>
-                    <div className="mt-2 text-gray-700">
+                    <div className="mt-2 text-font">
                       <p>{project.description}</p>
                     </div>
                   </div>

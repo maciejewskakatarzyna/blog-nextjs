@@ -32,7 +32,7 @@ export default function Home({ articles }) {
                     className="object-fill w-full md:h-56 rounded-md rounded-b-none"
                   />
                 </div>
-                <div className="flex items-center justify-between px-4 py-2 overflow-hidden">
+                <div className="flex items-center justify-between px-4 py-2 over flow-hidden">
                   <span className="text-xs font-medium text-grey-font uppercase">
                     {article.tags[0]}
                   </span>
